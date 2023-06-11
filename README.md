@@ -12,7 +12,7 @@ For faster realisation use `pixi-tilemap`, it will added as external renderer so
 # How to use #
 `npm install pixiv5-tiled`
 
-### Fully automatically importing. Images would be resolved automatically
+### Fully automatic importing. Images will be resolved automatically
 
 ```
 import {Inject} from "pixiv5-tiled"
@@ -70,8 +70,8 @@ loader.add("map","path/to/your/map.json")
 
 
 
-### Demo
-Go to demo folder: [./examples](./demo)
+### Examples
+You have several examples on [./examples](./examples)
 
 #### Live:
 * Middleware: [./middleware.html](https://exponenta.github.io/pixi-tiled/examples/middleware)
