@@ -14,13 +14,11 @@ For faster realisation use `pixi-tilemap`, it will added as external renderer so
 
 ### Fully automatic importing. Images will be resolved automatically
 
-```
+```js
 import {Inject} from "pixiv5-tiled"
 import * as PIXI from "pixi.js"
 
 Inject(PIXI);
-
-....
 
 var loader = new PIXI.Loader();
 loader.add("map","path/to/your/map.json")
@@ -32,14 +30,12 @@ loader.add("map","path/to/your/map.json")
 
 ### Manual
 
-```
+```js
 import {Inject, CreateStage} from "pixiv5-tiled"
 import * as PIXI from "pixi.js"
 
 //Inject only Mixins and apply global configuration 
 Inject(PIXI, {injectMiddleware : false});
-
-....
 
 var loader = new PIXI.Loader();
 loader.add("map","path/to/your/map.json")
